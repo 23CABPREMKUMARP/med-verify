@@ -1,0 +1,14 @@
+{
+    "name": "med-verify",
+    "private": true,
+    "workspaces": [
+        "client",
+        "server"
+    ],
+    "scripts": {
+        "build": "cd server && npm install && npm run build"
+    },
+    "engines": {
+        "node": "20.x"
+    }
+}
