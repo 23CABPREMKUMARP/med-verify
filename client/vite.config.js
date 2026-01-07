@@ -12,5 +12,10 @@ export default defineConfig({
         secure: false,
       }
     }
+  },
+  build: {
+    rollupOptions: {
+      external: [/@rolldown\/.*/],
+    }
   }
 })
